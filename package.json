@@ -1,0 +1,26 @@
+{
+  "name": "awsevent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "driver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zavvy-Glitch/awsEvents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zavvy-Glitch/awsEvents/issues"
+  },
+  "homepage": "https://github.com/Zavvy-Glitch/awsEvents#readme",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.41.0",
+    "aws-sdk": "^2.1027.0",
+    "faker": "^5.5.3",
+    "sqs-consumer": "^5.6.0"
+  }
+}
